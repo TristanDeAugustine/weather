@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
 }
 
 html {
@@ -9,4 +9,14 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: lightgrey;
+}
+
+.stuff {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 50px;
 }
